@@ -48,11 +48,11 @@ console.log(`https://someurl.com/${category}/5`);
 const user = "Ivan"; 
 alert(`Привет, ${user}`);*/
 
-console.log('arr' + "-object");
-console.log (4 + +"5");
+//console.log('arr' + "-object");
+//console.log (4 + +"5");
 
-let incr = 10;
-decr = 10;
+//let incr = 10;
+//decr = 10;
 
 //++incr; 
 //--decr;
@@ -65,7 +65,25 @@ decr = 10;
 //console.log(2*4 == '8'); -- true, сравниваем по значению, а не по типу данных
 //console.log(2*4 === '8'); -- строгое сравнение, сравниваются и типы данных тоже
 
-const isChecked = true;
+/*const isChecked = true;
         isClose = false;
 //console.log(isChecked && isClose);
-console.log(!isChecked || isClose);
+console.log(!isChecked || isClose); -- и/или */
+
+const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?');
+const personalMovieDB = 
+{
+count: numberOfFilms, 
+movies:{},
+actors:{},
+genres:[], 
+private: false
+};
+const question_1 = prompt('Один из последних просмотренных фильмов?');
+const question_2 = prompt('На сколько его оцените?');
+const question_3 = prompt('Один из последних просмотренных фильмов?');
+const question_4 = prompt('На сколько его оцените?');
+personalMovieDB.movies[question_1] = question_2;
+personalMovieDB.movies[question_3] = question_4;
+
+console.log(personalMovieDB);

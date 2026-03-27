@@ -1,0 +1,70 @@
+# ========================
+# OS / System
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDE / Editors
+# ========================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ========================
+# Dependencies
+# ========================
+node_modules/
+vendor/
+.pnp
+.pnp.js
+
+# ========================
+# Build / Output
+# ========================
+dist/
+build/
+out/
+.next/
+.nuxt/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# ========================
+# Logs & Temp
+# ========================
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# ========================
+# Testing & Coverage
+# ========================
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# ========================
+# Package managers
+# ========================
+.npm/
+.yarn/
+yarn-error.log
+package-lock.json   # удали, если хочешь коммитить lock-файл
